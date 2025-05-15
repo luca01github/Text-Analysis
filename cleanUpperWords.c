@@ -35,7 +35,6 @@ int main(){
         return 1;
     }
     
-
     char line[MAX_LENGTH];
     //Analizing every line of the file
     while(fgets(line, MAX_LENGTH, fPtr) != NULL){
@@ -45,7 +44,7 @@ int main(){
                 fprintf(foutput, "%s ", tokenPtr);
             }
             else{
-                printf("Upper word: %s\n", tokenPtr);
+                printf("Upper word: %s\n", tokenPtr);  //used as an output control of the function
             }
             tokenPtr = strtok(NULL, "\n\t ,.!?:;=");  //Following tokens with strtok
         }
