@@ -6,7 +6,7 @@
 
 int main(){
     FILE *fPtr = fopen("romeo-and-juliet_TXT_FolgerShakespeare.txt", "r");
-    FILE *foutput = fopen("RomeoAndJuliet-cleaned.txt", "w");
+    FILE *foutput = fopen("Romeostep1.txt", "w");
     
     if(fPtr == NULL || foutput == NULL){
         perror("Error while opening the file\n");
