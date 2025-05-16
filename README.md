@@ -1,4 +1,4 @@
-#Text analysis
+# Text analysis
 
 ## This C project contains the analysis of a text, in particular of Romeo and Juliet, but can be used and adapted for any other text. It's entirely written in C.
 
